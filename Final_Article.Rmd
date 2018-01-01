@@ -4,7 +4,10 @@ author: "Sam Castillo"
 date: "December 31, 2017"
 output:
   html_document:
-    toc: true
+    theme: spacelab
+    toc: yes
+  pdf_document:
+    toc: yes
 ---
 
 
@@ -42,15 +45,17 @@ Using the command `list.files()`, R automatically looks in the working directory
 ```{r}
 #setwd("projects/Excel Aggregate Loop/excel files")
 wd_path = "C:/Users/Sam/Desktop/projects/Excel Aggregate Loop/excel files"
-
 list.files(wd_path)
 ```
 
 R can then loop through each of these files and perform any action.  If there were 100 files, or 1000 files in this directory, this would still work.
 
+The loss files have dummy data for a claims listing.  Each row is an individual claim which would have a member name, memberID, loss date, report date, paid loss amount, incurred loss amount, case reserve amount, etc.  To make this as realistic as possible, the have artibtrary columns in addition to the ones which we need, `file year`, `loss date`, and `paid`.
+
 ```{r}
 file_names = list.files(wd_path)
 file_paths = paste(wd_path, "/", file_names, sep = "")
+head(read_excel(file_paths[4]) %>% select(-3,-4,-5))
 ```
 
 In order to evaluate the age of the losses, we need to take into account when each loss was evaluated.  This is accomplished by going into Excel and adding in a column for "file year", which specifies the year of evaluation of the file.  For instance, for the "claim listing 2013" file, all of the claims have a "2013" in the "file year" column.
