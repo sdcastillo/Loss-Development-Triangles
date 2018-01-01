@@ -1,19 +1,5 @@
-# Loss-Development-Triangles
-Code and data files for the article "Painlessly Merge Data into Actuarial Loss Development Triangles with R"
 
----
-title: "Painlessly Merge Data into Actuarial Loss Development Triangles with R"
-author: "Sam Castillo"
-date: "December 31, 2017"
-output:
-  pdf_document:
-    toc: yes
-  html_document:
-    toc: yes
-    theme: 'spacelab'
-    
----
-
+#Code and data files for the article "Painlessly Merge Data into Actuarial Loss Development Triangles with R"
 
 **Objective:**
 
