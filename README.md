@@ -1,4 +1,4 @@
-#Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R
+# Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R
 
 **Objective:**
 
@@ -11,6 +11,10 @@ Using only Excel, the common method is to create links between the excel files w
 For a definition of a loss development triangle and why they are important, see Wikipedia: https://en.wikipedia.org/wiki/Chain-ladder_method
 
 **Methods:**
+
+1. Organize the excel files
+2. Load the data into R
+3. Create combined development triangle
 
 To locate the current working directory, I use the package `here`.  To read in the Excel files and manipulate the data, I use `readxl`, `dplyr`, and `plyr`.  The package `ChainLadder` has a variety of tools for actuarial reserve analysis.    
 
