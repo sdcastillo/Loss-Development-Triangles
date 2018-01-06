@@ -1,5 +1,7 @@
 # Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R
 
+[Read the expanded article on datascienceplus.com](https://datascienceplus.com/faster-than-excel-painlessly-merge-data-into-actuarial-loss-development-triangles-with-r/)
+
 **Objective:**
 
 Create a method which easily combines loss runs, or listings of insurance claims, into triangles.  
