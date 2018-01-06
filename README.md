@@ -1,5 +1,4 @@
-
-Follow along with the data and Rmd file from github:https://github.com/sdcastillo/Loss-Development-Triangles
+*Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R*
 
 **Objective:**
 
