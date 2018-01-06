@@ -27,7 +27,7 @@ library(dplyr)
 library(ChainLadder)
 ```
 
-# Step 1: Organize the Excel Files
+## Step 1: Organize the Excel Files
 
 We will loop through all of the excel files and extract the data needed.
 
@@ -55,7 +55,7 @@ head(read_excel(file_paths[3]), 4)
 
 In order to evaluate the age of the losses, we need to take into account when each loss was evaluated.  This is accomplished by going into Excel and adding in a column for `file_year`, which specifies the year of evaluation of the file.  For instance, for the "claim listing 2013" file, all of the claims have a "2013" in the "file year" column.  For convenience, these files already contain the `file_year` column.
 
-#Step 2: Load the Data into R
+## Step 2: Load the Data into R
 
 We will combine all of the excel files with a simple function.
 
@@ -95,7 +95,7 @@ The data now has only the columns what we selected, despite the fact that the lo
 ```{r}
 head(loss_run_data, 4)
 ```
-#Step 3: Create Development Triangles
+## Step 3: Create Development Triangles
 
 Finally, once we have the loss run combined, we just need to create a triangle.  This is made easy by the `as.triangle` function from the `ChainLadder` package.
 
