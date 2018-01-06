@@ -8,7 +8,7 @@ Create a method which easily combines loss runs, or listings of insurance claims
 
 Using only Excel, the common method is to create links between the excel files which must be updated manually at each new evaluation.  This is prone to human error and is time consuming.  Using a script to merge the files first and then create a triangle saves time and is more consistent.
 
-For a definition of a loss development triangle and why they are important, see Wikipedia: https://en.wikipedia.org/wiki/Chain-ladder_method
+[For a definition of a loss development triangle and why they are important, see Wikipedia.](https://en.wikipedia.org/wiki/Chain-ladder_method)
 
 **Methods:**
 
