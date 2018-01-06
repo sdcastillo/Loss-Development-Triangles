@@ -27,7 +27,7 @@ library(dplyr)
 library(ChainLadder)
 ```
 
-#Step 1: Organize the Excel Files
+# Step 1: Organize the Excel Files
 
 We will loop through all of the excel files and extract the data needed.
 
