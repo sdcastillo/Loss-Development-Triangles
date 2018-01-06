@@ -1,4 +1,4 @@
-*Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R*
+#Painlessly Merge Excel Files to Create Actuarial Loss Development Triangles with R
 
 **Objective:**
 
