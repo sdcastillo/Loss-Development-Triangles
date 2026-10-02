@@ -1,0 +1,12 @@
+title: Loss Development Triangles
+description: Merge claims listings into actuarial loss development triangles with R.
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+markdown: kramdown
+show_downloads: false
+exclude:
+  - README.md
+  - Final_Article.Rmd
+  - Final_Article.pdf
+  - vendor
